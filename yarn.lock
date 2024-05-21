@@ -3357,6 +3357,7 @@ __metadata:
     eslint-config-prettier: "npm:^9.1.0"
     eslint-plugin-prettier: "npm:^5.1.3"
     eslint-plugin-sonarjs: "npm:^0.24.0"
+    fork: "npm:^1.3.1"
     husky: "npm:^9.0.11"
     jest: "npm:^29.7.0"
     jest-junit: "npm:16.0.0"
@@ -3776,6 +3777,13 @@ __metadata:
   bin:
     babylon: ./bin/babylon.js
   checksum: 10c0/9b1bf946e16782deadb1f5414c1269efa6044eb1e97a3de2051f09a3f2a54e97be3542d4242b28d23de0ef67816f519d38ce1ec3ddb7be306131c39a60e5a667
+  languageName: node
+  linkType: hard
+
+"back@npm:~0.1.5":
+  version: 0.1.5
+  resolution: "back@npm:0.1.5"
+  checksum: 10c0/f84ab75de4aa461eafa08da8d48adc97b37035e03b371f164e5761fcfd800ed08ebfb2a4ef90e955971e936350e921d0cbc648cf070a391b342bac7d2da27f63
   languageName: node
   linkType: hard
 
@@ -4767,6 +4775,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"errs@npm:^0.3.2":
+  version: 0.3.2
+  resolution: "errs@npm:0.3.2"
+  checksum: 10c0/79da7204153fb8aefd454b484854c7af69671fca43f1df0d7769cd64c2c1db0808f79ad1a5a7aba7c051897a512b4a67a49b7797be9d7a8b42255d0524659ddb
+  languageName: node
+  linkType: hard
+
 "es-abstract@npm:^1.22.1, es-abstract@npm:^1.22.3, es-abstract@npm:^1.23.0, es-abstract@npm:^1.23.2":
   version: 1.23.3
   resolution: "es-abstract@npm:1.23.3"
@@ -5400,6 +5415,17 @@ __metadata:
     cross-spawn: "npm:^7.0.0"
     signal-exit: "npm:^4.0.1"
   checksum: 10c0/9700a0285628abaeb37007c9a4d92bd49f67210f09067638774338e146c8e9c825c5c877f072b2f75f41dc6a2d0be8664f79ffc03f6576649f54a84fb9b47de0
+  languageName: node
+  linkType: hard
+
+"fork@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "fork@npm:1.3.1"
+  dependencies:
+    back: "npm:~0.1.5"
+    errs: "npm:^0.3.2"
+    killer: "npm:^0.1.0"
+  checksum: 10c0/a57296dca19949ac25e7b747678110d3dc1fbafad5d4423d65d4bb3d024dc85302c6c013b06e27a99905180d0be81afca1f138c24abfa433e2de4fb23b57aea6
   languageName: node
   linkType: hard
 
@@ -6971,6 +6997,13 @@ __metadata:
   dependencies:
     json-buffer: "npm:3.0.1"
   checksum: 10c0/aa52f3c5e18e16bb6324876bb8b59dd02acf782a4b789c7b2ae21107fab95fab3890ed448d4f8dba80ce05391eeac4bfabb4f02a20221342982f806fa2cf271e
+  languageName: node
+  linkType: hard
+
+"killer@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "killer@npm:0.1.0"
+  checksum: 10c0/fb606d72ff259d0067d538d1ad15a9c3b80676361a54f376150ce9a02590aa9c5b134f49cc7dad54ed20f5b1844aaf1aaa489568f31d9107224e07a286f42299
   languageName: node
   linkType: hard
 
